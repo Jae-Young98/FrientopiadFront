@@ -34,7 +34,7 @@ section.visual .menu {position: absolute; bottom: 15%; left: 8%;   }
 section.visual .menu li{float: left;margin-right: 60px; }
 section.visual .menu li a{display: block; color: #fff;}
 section.visual .menu li a p {float: left; font-weight: bold; font-size: 20px; line-height: 1.6;}
-section.visual .menu li a p span {display: block;font-weight: 100; font-size: 15px; color: #aaa;}
+section.visual .menu li a p span {display: block;font-weight: 100; font-size: 15px; color: #ffffff;}
 section.visual .menu li a .arrow {display: block; float: right; margin-top: 10px; margin-left: 20px; position: relative; z-index: 1; }
 section.visual .menu li a .arrow:before {content: ''; width: 40px; height: 40px; background: rgba(252, 252, 252, 0.4);position: absolute; top:-10px; right: -10px; z-index: -1; transition: all 0.2s;}
 section.visual .menu li a:hover .arrow:before,section.visual .menu li a:focus .arrow:before {right: 0; top: 0;}
