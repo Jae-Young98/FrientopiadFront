@@ -1,0 +1,21 @@
+.left {
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0 100%);
+    transition: all 0.4s;
+}
+
+.right {
+    clip-path: polygon(60% 0, 100% 0%, 100% 100%, 40% 100%);
+    transition: all 0.4s;
+}
+
+.left:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.right:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.background{
+    filter: brightness(50%);
+}
